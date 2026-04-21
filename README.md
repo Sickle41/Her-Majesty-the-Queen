@@ -1,1 +1,1 @@
-The beginning of a fast paced attempt to produce a full stack app while reviewing course material.
+The beginning of a fast paced attempt to produce a full stack app while reviewing course material. This is simply a very basic overview of a function.
