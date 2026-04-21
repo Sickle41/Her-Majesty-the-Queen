@@ -14,3 +14,6 @@ console.log(charisse)
 
 const jenna = hailTheQueen("Jenna Solis") // Argument value is "Jenna Solis"
 console.log(jenna)
+
+const ramona = hailTheQueen()
+console.log(ramona)
