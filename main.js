@@ -24,4 +24,5 @@ const hailTheQueen = (nameString) => {
 
 for (const queen of queens) {
     const hailMessage = hailTheQueen(queen.name)
+    console.log(hailMessage)
 }
