@@ -1,4 +1,18 @@
+const tributeChest = []
 
+const payTribute = (id, description, queenId) => {
+    const tributeObject = {
+        id: tributeId,
+        description: tributeDescription,
+        queenId: queenId
+    }
+    tributeChest.push(tributeObject)
+}
+
+payTribute(1, "Gold", 1)
+payTribute(2, "Incense", 2)
+payTribute(3, "Spices", 3)
+payTribute(4, "Silver", 4)
 const queens = []
 
 const createQueen = (queenId, queenName) => {
