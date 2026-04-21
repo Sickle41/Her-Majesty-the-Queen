@@ -18,5 +18,5 @@ console.log(jenna)
 const ramona = hailTheQueen("Ramona Flowers")
 console.log(ramona)
 
-const monica = hailTheQuen("Monica Dinglehopper")
+const monica = hailTheQueen("Monica Dinglehopper")
 console.log(monica)
