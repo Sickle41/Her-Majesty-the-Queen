@@ -2,8 +2,8 @@ const tributeChest = []
 
 const payTribute = (id, description, queenId) => {
     const tributeObject = {
-        id: tributeId,
-        description: tributeDescription,
+        id: id,
+        description: description,
         queenId: queenId
     }
     tributeChest.push(tributeObject)
@@ -39,4 +39,12 @@ const hailTheQueen = (nameString) => {
 for (const queen of queens) {
     const hailMessage = hailTheQueen(queen.name)
     console.log(hailMessage)
+}
+
+for (const queen of queens) {
+    
+    for (const tribute of tributeChest) {
+       if (tribute.queenId === queen.id)
+        console.log(`${queen.name} has tribute ${tribute.description}`)
+    }
 }
